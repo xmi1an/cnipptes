@@ -12,10 +12,17 @@
   "engines": {
     "vscode": "^1.45.0"
   },
+  "galleryBanner": {
+    "color": "#262A33",
+    "theme": "light"
+  },
   "categories": [
-    "Snippets"
+    "Snippets",
+    "Formatters"
   ],
   "keywords": [
+    "C",
+    "C++",
     "C Language",
     "snippets",
     "C Programs",
