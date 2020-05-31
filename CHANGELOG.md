@@ -5,6 +5,7 @@
 - ### Added
 
 - Some basic programs.
+- Minor Improvments.
 
 ## [1.0.0] - 2020-06-20
 

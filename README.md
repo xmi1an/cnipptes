@@ -39,14 +39,22 @@
 | `while`      | Snippet for a while loop         |
 
  <hr>
+ 
+ <br>
 
-| Programs | Description                               |
-| -------- | ----------------------------------------- |
-| `!h`     | Snippet for Hello World Program"          |
-| `!ascii` | Snippet for Check ASCII Value Program"    |
-| `!ln`    | Snippet for Check Largest Number Program" |
-| `!fact`  | Snippet for Find Factorial of a Number"   |
-| `!cal`   | Snippet for Simple Calculation Program"   |
-| `!palin` | Snippet for Palindrome Program"           |
+| !Programs | Description                               |
+| --------- | ----------------------------------------- |
+| `!h`      | Snippet for Hello World Program"          |
+| `!ascii`  | Snippet for Check ASCII Value Program"    |
+| `!ln`     | Snippet for Check Largest Number Program" |
+| `!fact`   | Snippet for Find Factorial of a Number"   |
+| `!cal`    | Snippet for Simple Calculation Program"   |
+| `!palin`  | Snippet for Palindrome Program"           |
+
+<br>
+
+| ?help    | Description                     |
+| -------- | ------------------------------- |
+| `?fopen` | Snippet for Hello World Program |
 
 **Enjoy!** :smile:

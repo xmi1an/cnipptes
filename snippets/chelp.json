@@ -1,5 +1,5 @@
 {
-    "Opening a file in ": {
+    "Creation and edit": {
         "prefix": "?fopen",
         "body": [
             "ptr = fopen(\"${2:fileopen}\",\"${1:mode}\");",
@@ -8,6 +8,6 @@
             "//fopen(\"E:\\\\cprogram\\\\newprogram.txt\",\"w\");",
             "//fopen(\"E:\\\\cprogram\\\\oldprogram.bin\",\"rb\");}"
         ],
-        "description": "Opening a file in "
+        "description": "Opening a file - for creation and edit "
     }
 }
