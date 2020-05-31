@@ -1,7 +1,7 @@
 
 <center> 
 
-![icon](https://raw.githubusercontent.com/milanjadav/vscode-clangsnippets/master/icon_250.png)
+![icon](https://raw.githubusercontent.com/milanjadav/cnipptes/master/assets/icon_250.png)
 
 <br>
 
