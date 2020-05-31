@@ -1,2 +1,2 @@
-.vscodeignore
-cnippets-1.0.0.vsix
+*.vscodeignore
+*cnippets-1.0.0.vsix
