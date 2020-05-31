@@ -6,7 +6,7 @@
   "publisher": "Milan Jadav",
   "repository": {
     "type": "git",
-    "url": "https://github.com/milanjadav/vscode-clangsnippets"
+    "url": "https://github.com/milanjadav/vsce-cnippets"
   },
   "icon": "./assets/icon.png",
   "engines": {
