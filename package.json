@@ -2,8 +2,8 @@
   "name": "cnippets",
   "displayName": "Cnippets",
   "description": "C Language Snippets for beginners",
-  "version": "1.4.0",
-  "publisher": "MilanJadav",
+  "version": "1.2.0",
+  "publisher": "milanjadav",
   "repository": {
     "type": "git",
     "url": "https://github.com/milanjadav/cnipptes"
