@@ -5,7 +5,7 @@
 
 <br>
 
-[![version](https://badgen.net/vs-marketplace/v/milanjadav.cnippets)](https://www.npmjs.com/@angular/core)
+[![version](https://badgen.net/vs-marketplace/v/milanjadav.cnippets)](https://marketplace.visualstudio.com/items?itemName=milanjadav.cnippets)
 ![rating](https://badgen.net/vs-marketplace/rating/milanjadav.cnippets)
 
 ## Usage
