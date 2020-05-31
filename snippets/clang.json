@@ -1,0 +1,213 @@
+{
+  "printf": {
+    "prefix": "print",
+    "body": [
+      "printf(\"${1:Your Text}\");"
+    ],
+    "description": "Snippet for a for Printf"
+  },
+  "scanf": {
+    "prefix": "scan",
+    "body": [
+      "scanf(\"%$1\",&$2);"
+    ],
+    "description": "scanf"
+  },
+  "for loop": {
+    "prefix": "for",
+    "body": [
+      "for (int i$1= 0$2; i < 10$3; i++)",
+      "{",
+      "    ${4:printf(\"%d \\n\", i);}",
+      "}"
+    ],
+    "description": "Snippet for a for loop"
+  },
+  "do": {
+    "prefix": "do",
+    "body": [
+      "do",
+      "{",
+      "\t${2:// statements inside the body of the loop}",
+      "} while (${1:\/* testExpression *\/})"
+    ],
+    "description": "Snippet for a do..while loop"
+  },
+  "while loop": {
+    "prefix": "while",
+    "body": [
+      "while (${1:\/* Condition *\/})",
+      "{",
+      "    ${2:\/\/Code}",
+      "}"
+    ],
+    "description": "while loop"
+  },
+  "if Statement": {
+    "prefix": "if",
+    "body": [
+      "if (${1:test expression}) ",
+      "{",
+      "${2:// statements to be executed if the test expression is true}",
+      "}"
+    ],
+    "description": "if Statement"
+  },
+  "else": {
+    "prefix": "else",
+    "body": [
+      "else",
+      "{",
+      "\t$0",
+      "}\n"
+    ],
+    "description": "snippet for else"
+  },
+  "else if": {
+    "prefix": "else if",
+    "body": [
+      "else if (${1:test expression}) ",
+      "{",
+      "\t$0",
+      "}"
+    ],
+    "description": "Snippet for else-if"
+  },
+  "f...else": {
+    "prefix": "if else2",
+    "body": [
+      "if (${1:test expression1}) {",
+      "   // statement(s)",
+      "",
+      "else if(${2:test expression2}) {",
+      "   // statement(s)",
+      "}",
+      "else if (${3:test expression3}) {",
+      "   // statement(s)",
+      "}",
+      ".",
+      ".",
+      "else {",
+      "   // statement(s)$4",
+      "}"
+    ],
+    "description": "Syntax of if...else Ladder"
+  },
+  "enum": {
+    "prefix": "enum",
+    "body": [
+      "enum $1",
+      "{",
+      "\t$0",
+      "};\n"
+    ],
+    "description": "Snippet for an enum declaration"
+  },
+  "arrays": {
+    "prefix": "array",
+    "body": [
+      "int data[100];"
+    ],
+    "description": "Declare an array"
+  },
+  "#ifndef": {
+    "prefix": "#ifndef",
+    "body": [
+      "#ifndef __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}__H__",
+      "#define __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}__H__",
+      "$0",
+      "#endif  //!__${TM_FILENAME_BASE/(.*)/${1:/upcase}/}__H__"
+    ],
+    "description": "Snippet for #ifndef"
+  },
+  "#ifdef": {
+    "prefix": "#ifdef",
+    "body": [
+      "#ifdef  $1",
+      "$0",
+      "#endif  //$1"
+    ],
+    "description": "Snippet for #if"
+  },
+  "struct": {
+    "prefix": "struct",
+    "body": [
+      "struct ${1:structureName}",
+      "{",
+      "\t${2:dataType} ${3:member1};",
+      "\t${4:dataType} ${5:member2};",
+      "};"
+    ],
+    "description": "Snippet for a struct declaration"
+  },
+  "switch": {
+    "prefix": "switch",
+    "body": [
+      "switch (${1:expression})",
+      "{",
+      "  case ${2:constant1}:",
+      "// statements",
+      "\t$4",
+      "\tbreak;",
+      "case ${3:constant2}:",
+      "// statements",
+      "\t$5",
+      "\tbreak;",
+      "\n",
+      "\n",
+      "  default:",
+      "// default statements",
+      "}"
+    ],
+    "description": "Snippet for a switch statement"
+  },
+  "case": {
+    "prefix": "case",
+    "body": [
+      "  case ${1:constant}:",
+      "\t$0",
+      "\tbreak;"
+    ],
+    "description": "Snippet for case (...)"
+  },
+  "Continue statement": {
+    "prefix": "cont",
+    "body": [
+      "continue;"
+    ],
+    "description": "Continue statement"
+  },
+  "union": {
+    "prefix": "union",
+    "body": [
+      "union ${1:Name}",
+      "{",
+      "\t${2:dataType} ${3:member1};",
+      "\t${4:dataType} ${5:member1};",
+      "}${6:variable};"
+    ],
+    "description": "Snippet for a union declaration"
+  },
+  "#def": {
+    "prefix": "#def",
+    "body": [
+      "#define  ${1:CNAME}  ${2:value}",
+      "$0"
+    ],
+    "description": "Snippet for #define"
+  },
+  "main": {
+    "prefix": [
+      "main"
+    ],
+    "body": [
+      "int\tmain()",
+      "{",
+      "\t$0",
+      "\n",
+      "\treturn 0;",
+      "}\n"
+    ],
+    "description": "Snippet for a main function"
+  }
+}

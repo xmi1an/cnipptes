@@ -1,0 +1,34 @@
+{
+  "name": "cnippets",
+  "displayName": "Cnippets",
+  "description": "C Language Snippets for beginners",
+  "version": "1.0.1",
+  "publisher": "Milan Jadav",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milanjadav/vscode-clangsnippets"
+  },
+  "icon": "./assets/icon.png",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "c",
+        "path": "./snippets/clang.json"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/cprog.json"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/chelp.json"
+      }
+    ]
+  }
+}

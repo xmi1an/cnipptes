@@ -1,0 +1,13 @@
+{
+    "Opening a file in ": {
+        "prefix": "?fopen",
+        "body": [
+            "ptr = fopen(\"${2:fileopen}\",\"${1:mode}\");",
+            "",
+            "${3:For example,",
+            "//fopen(\"E:\\\\cprogram\\\\newprogram.txt\",\"w\");",
+            "//fopen(\"E:\\\\cprogram\\\\oldprogram.bin\",\"rb\");}"
+        ],
+        "description": "Opening a file in "
+    }
+}

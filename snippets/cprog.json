@@ -1,0 +1,154 @@
+{
+    "C Hello World Program": {
+        "prefix": "!h",
+        "body": [
+            "#include <stdio.h>",
+            "int main() {",
+            "   printf(\"${1:Hello, World!}\");",
+            "   return 0;",
+            "}"
+        ],
+        "description": "C Hello World Program"
+    },
+    "ASCII Value": {
+        "prefix": "!ascii",
+        "body": [
+            "#include <stdio.h>",
+            "int main() {  ",
+            "    char c;",
+            "    printf(\"Enter a character: \");",
+            "    scanf(\"%c\", &c);  ",
+            "    ",
+            "    // %d displays the integer value of a character",
+            "    // %c displays the actual character",
+            "    printf(\"ASCII value of %c = %d\", c, c);",
+            "    ",
+            "    return 0;",
+            "}"
+        ]
+    },
+    "Check Even or Odd": {
+        "prefix": "!oe",
+        "body": [
+            "#include <stdio.h>",
+            "int main() {",
+            "    int num;",
+            "    printf(\"Enter an integer: \");",
+            "    scanf(\"%d\", &num);",
+            "",
+            "    // True if num is perfectly divisible by 2",
+            "    if(num % 2 == 0)",
+            "        printf(\"%d is even.\", num);",
+            "    else",
+            "        printf(\"%d is odd.\", num);",
+            "    ",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Check Even or Odd Program"
+    },
+    "Largest Number": {
+        "prefix": "!ln",
+        "body": [
+            "#include <stdio.h>",
+            "int main() {",
+            "    double n1, n2, n3;",
+            "    printf(\"Enter three numbers: \");",
+            "    scanf(\"%lf %lf %lf\", &n1, &n2, &n3);",
+            "",
+            "    // if n1 is greater than both n2 and n3, n1 is the largest",
+            "    if (n1 >= n2 && n1 >= n3)",
+            "        printf(\"%.2lf is the largest number.\", n1);",
+            "",
+            "    // if n1 is greater than both n2 and n3, n1 is the largest",
+            "    else if (n2 >= n1 && n2 >= n3)",
+            "        printf(\"%.2lf is the largest number.\", n2);",
+            "",
+            "    // if both above conditions are false, m3 is the largest",
+            "    else",
+            "        printf(\"%.2lf is the largest number.\", n3);",
+            "",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Check Largest Number Program"
+    },
+    "Factorial": {
+        "prefix": "!fact",
+        "body": [
+            "#include <stdio.h>",
+            " ",
+            "int main()",
+            "{",
+            "  int c, n, fact = 1;",
+            " ",
+            "  printf(\"Enter a number to calculate its factorial\\n\");",
+            "  scanf(\"%d\", &n);",
+            "  for (c = 1; c <= n; c++)",
+            "    fact = fact * c;",
+            " ",
+            "  printf(\"Factorial of %d = %d\\n\", n, fact);",
+            " ",
+            "  return 0;",
+            "}"
+        ],
+        "description": "Find Factorial of a Number"
+    },
+    "Simple Calculation": {
+        "prefix": "!cal",
+        "body": [
+            "#include <stdio.h>",
+            "int main()",
+            "{",
+            "   int first, second, add, subtract, multiply;",
+            "   float divide;",
+            " ",
+            "   printf(\"Enter two integers\\n\");",
+            "   scanf(\"%d%d\", &first, &second);",
+            " ",
+            "   add = first + second;",
+            "   subtract = first - second;",
+            "   multiply = first * second;",
+            "   divide = first / (float)second;   //typecasting",
+            "",
+            "   printf(\"Sum = %d\\n\", add);",
+            "   printf(\"Difference = %d\\n\", subtract);",
+            "   printf(\"Multiplication = %d\\n\", multiply);",
+            "   printf(\"Division = %.2f\\n\", divide);",
+            " ",
+            "   return 0;",
+            "}"
+        ],
+        "description": "Simple Calculation Program"
+    },
+    "Palindrome Program": {
+        "prefix": "!palin",
+        "body": [
+            "#include <stdio.h>",
+            "int main()",
+            "{",
+            "  int n, r = 0, t;",
+            "",
+            "  printf(\"Enter a number to check if it's a palindrome or not\\n\");",
+            "  scanf(\"%d\", &n);",
+            "",
+            "  t = n;",
+            "",
+            "  while (t != 0)",
+            "  {",
+            "    r = r * 10;",
+            "    r = r + t%10;",
+            "    t = t/10;",
+            "  }",
+            "",
+            "  if (n == r)",
+            "    printf(\"%d is a palindrome number.\\n\", n);",
+            "  else",
+            "    printf(\"%d isn't a palindrome number.\\n\", n);",
+            "",
+            "  return 0;",
+            "}"
+        ],
+        "description": "Palindrome Program"
+    }
+}
