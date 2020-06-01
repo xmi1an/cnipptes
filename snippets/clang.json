@@ -209,5 +209,16 @@
       "}\n"
     ],
     "description": "Snippet for a main function"
+  },
+  "Standard header files in C": {
+    "prefix": "?header",
+    "body": [
+      "/*In C language, header files contain the set of predefined standard library functions.",
+      "The “#include” preprocessing directive is used to include the header files with “.h” extension in the program.",
+      "",
+      "Here is the table that displays some of the header files in C language,",
+      "*/"
+    ],
+    "description": "Standard header files in C"
   }
 }

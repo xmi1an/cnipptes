@@ -1,0 +1,58 @@
+{
+    "Input/Output functions": {
+        "prefix": "#include<stdio.h>",
+        "body": [
+            "#include<stdio.h>"
+        ],
+        "description": "Input/Output functions"
+    },
+    "General utility functions": {
+        "prefix": "#include<stdlib.h>",
+        "body": [
+            "#include<stdlib.h>"
+        ],
+        "description": "General utility functions"
+    },
+    "Mathematics functions": {
+        "prefix": "#include<math.h>",
+        "body": [
+            "#include<math.h>"
+        ],
+        "description": "Mathematics functions"
+    },
+    "Character handling functions": {
+        "prefix": "#include<ctype.h>",
+        "body": [
+            "#include<ctype.h>"
+        ],
+        "description": "Character handling functions"
+    },
+    "Date and time functions": {
+        "prefix": "#include<time.h>",
+        "body": [
+            "#include<time.h>"
+        ],
+        "description": "Date and time functions"
+    },
+    "Limits of float types": {
+        "prefix": "#include<float.h>",
+        "body": [
+            "#include<float.h>"
+        ],
+        "description": "Limits of float types"
+    },
+    "Size of basic types": {
+        "prefix": "#include<limits.h>",
+        "body": [
+            "#include<limits.h>"
+        ],
+        "description": "Size of basic types"
+    },
+    "Functions to determine the type contained in wide character data.": {
+        "prefix": "#include<wctype.h>",
+        "body": [
+            "#include<wctype.h>"
+        ],
+        "description": "Functions to determine the type contained in wide character data."
+    }
+}
