@@ -1,4 +1,18 @@
 {
+    "C Comments": {
+        "prefix": "?comment",
+        "body": [
+            "The syntax for a comment is:",
+            "// comment goes here",
+            "",
+            "OR",
+            "",
+            "/*",
+            "comment goes here",
+            " */"
+        ],
+        "description": "C Comments"
+    },
     "Creation and edit": {
         "prefix": "?fopen",
         "body": [
@@ -9,5 +23,64 @@
             "//fopen(\"E:\\\\cprogram\\\\oldprogram.bin\",\"rb\");}"
         ],
         "description": "Opening a file - for creation and edit "
+    },
+    "Standard header files in C": {
+        "prefix": "?header",
+        "body": [
+            "In C language, header files contain the set of predefined standard librarnclude the header files with “.h”y functions.",
+            "The “#include” preprocessing directive is used to i",
+            "extension in the program.",
+            "",
+            "stdio.h",
+            "Input/Output functions",
+            "",
+            "conio.h",
+            "Console Input/Output functions",
+            "",
+            "stdlib.h",
+            "General utility functions",
+            "",
+            "math.h",
+            "Mathematics functions",
+            "",
+            "string.h",
+            "String functions",
+            "",
+            "ctype.h",
+            "Character handling functions",
+            "",
+            "time.h",
+            "Date and time functions",
+            "",
+            "float.h",
+            "Limits of float types",
+            "",
+            "limits.h",
+            "Size of basic types",
+            "",
+            "wctype.h",
+            "Functions to determine the type contained in wide character data."
+        ],
+        "description": "Standard header files in C"
+    },
+    "C Keywords": {
+        "prefix": "?keywords",
+        "body": [
+            "C Keywords : ",
+            "1. Keywords are those words whose meaning is already defined by Compiler",
+            "2. Cannot be used as Variable Name",
+            "3. There are 32 Keywords in C",
+            "4. C Keywords are also called as Reserved words .",
+            "",
+            "auto        double      int          struct",
+            "break       else        long         switch",
+            "case        enum        register     typedef",
+            "char        extern      return       union",
+            "const       float       short        unsigned",
+            "continue    for         signed       void",
+            "default     goto        sizeof       volatile",
+            "do          if          static       while"
+        ],
+        "description": "C Keywords"
     }
 }
