@@ -23,10 +23,10 @@
   "keywords": [
     "C",
     "C++",
-    "C Language",
     "snippets",
-    "C Programs",
-    "Milan Jadav"
+    "C Language",
+    "C Language",
+    "C Programs"
   ],
   "scripts": {
     "deploy": "vsce publish --yarn"
@@ -44,6 +44,10 @@
       {
         "language": "c",
         "path": "./snippets/chelp.json"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/cheader.json"
       }
     ]
   }
