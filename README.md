@@ -64,7 +64,9 @@
 | `!fact`             | Find Factorial of a Number   |
 | `!cal`              | Simple Calculation Program   |
 | `!palin`            | Palindrome Program           |
+
 <hr>
+
 <br>
 
 | Snippets (Help) | Description                  |
