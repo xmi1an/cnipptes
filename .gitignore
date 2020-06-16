@@ -1,3 +1,4 @@
-.vscode
-.vscodeignore
-cnippets.c
+/.vscode
+/.vscodeignore
+/cnippets.c
+/downloads
